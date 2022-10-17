@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace SG {
+namespace OP {
     public class PlayerController : MonoBehaviour
     {
         Transform cameraObject;
