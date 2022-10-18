@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 63e05186dc016214b9f8ee94ecc8d194
+guid: 73d51266b325dea49bf241ca4573d60e
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: idle
+    second: Stand_to_rolling
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -36,18 +36,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: idle
+      name: Stand_to_rolling
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 500
+      lastFrame: 142
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
