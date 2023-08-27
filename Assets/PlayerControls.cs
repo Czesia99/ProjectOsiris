@@ -104,6 +104,17 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""ef1f86df-bc8b-4154-99d3-459b5b3c6d43"",
+                    ""path"": ""<Gamepad>/leftStick"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""d391c29c-eace-4ad9-a00b-dc5e8bf52ae3"",
                     ""path"": ""<Gamepad>/rightStick"",
                     ""interactions"": """",
@@ -143,8 +154,8 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""0f11567c-e055-49e9-ab1f-45a68e2d79db"",
-                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""id"": ""8e3ef899-714d-42c2-967d-c14453fba6b6"",
+                    ""path"": ""<Keyboard>/leftShift"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -154,8 +165,8 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""8e3ef899-714d-42c2-967d-c14453fba6b6"",
-                    ""path"": ""<Keyboard>/leftShift"",
+                    ""id"": ""0f11567c-e055-49e9-ab1f-45a68e2d79db"",
+                    ""path"": ""<Gamepad>/buttonEast"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

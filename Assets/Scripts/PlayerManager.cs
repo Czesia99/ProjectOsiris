@@ -2,17 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour
+namespace OP
 {
-    // Start is called before the first frame update
-    void Start()
+    public class PlayerManager : MonoBehaviour
     {
-        
-    }
+        InputHandler inputHandler;
+        Animator anim;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        void Start()
+        {
+            inputHandler = GetComponent<InputHandler>();
+            anim = GetComponentInChildren<Animator>();
+        }
+
+        void Update()
+        {
+            inputHandler.isInteracting = anim.GetBool("isInteracting");
+            inputHandler.rollFlag = false;
+        }
     }
 }
