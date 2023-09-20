@@ -15,6 +15,8 @@ namespace OP
         public bool isInteracting;
         [Header("Player Flags")]
         public bool isSprinting;
+        public bool isInAir;
+        public bool isGrounded;
 
         private void Awake()
         {
@@ -36,6 +38,7 @@ namespace OP
             inputHandler.TickInput(delta);
             playerController.HandleMovement(delta);
             playerController.HandleRollingAndSprinting(delta);
+            playerController.HandleFalling(delta, playerController.moveDirection);
         }
         
         private void FixedUpdate()
@@ -53,6 +56,11 @@ namespace OP
             inputHandler.rollFlag = false;
             inputHandler.sprintFlag = false;
             isSprinting = inputHandler.b_Input;
+
+            if (isInAir)
+            {
+                playerController.inAirTimer = playerController.inAirTimer + Time.deltaTime;
+            }
         }
 
     }
